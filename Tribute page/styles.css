@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color:purple;
+}
+#main {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+.year {
+  font-weight: bold;
+}
+
+#img-caption {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+#tribute-info {
+  text-align: left;
+}
+.timeline-item {
+  margin-bottom: 10px;
+}
+
+#tribute-link {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+}
