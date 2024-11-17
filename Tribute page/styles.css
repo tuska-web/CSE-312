@@ -1,41 +1,72 @@
+/* styles.css */
+
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color:purple;
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #333;
 }
+
 #main {
-  width: 90%;
-  margin: 0 auto;
   padding: 20px;
 }
+
+#title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#img-div {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
 #image {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 10px auto;
-}
-.year {
-  font-weight: bold;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 
 #img-caption {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #555;
   font-style: italic;
-  margin-bottom: 20px;
 }
+
 #tribute-info {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  padding: 0 10%;
   text-align: left;
+  line-height: 1.8;
 }
-.timeline-item {
-  margin-bottom: 10px;
+
+#tribute-info ul {
+  list-style-type: square;
+  margin: 10px 0 10px 20px;
+}
+
+#tribute-info ul li {
+  margin-bottom: 5px;
 }
 
 #tribute-link {
-  margin-top: 20px;
   display: inline-block;
-  padding: 10px;
-  background-color: #4CAF50;
-  color: white;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #007BFF;
   text-decoration: none;
+  font-weight: bold;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
 }
